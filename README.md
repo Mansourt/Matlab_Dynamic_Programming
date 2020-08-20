@@ -1,3 +1,5 @@
 # Matlab_Dynamic_Programming
 
-MATLAB: Solve Fibonacci Numbers using Dynamic Programming, Memoization)
+MATLAB Code: Solve Fibonacci Numbers using Dynamic Programming, Memoization
+
+Implementation in MATLAB
