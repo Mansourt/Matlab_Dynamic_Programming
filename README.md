@@ -1,4 +1,4 @@
-# Matlab_Dynamic_Programming
+# Matlab Dynamic Programming 
 
 MATLAB Code: Solve Fibonacci Numbers using Dynamic Programming, Memoization
 
@@ -18,3 +18,13 @@ Fibonacci with Dynamic programming (Memoization):
 Fibo3.m 
 Fibonacci with Matrix Exponentiation:
 	Time Complexity:    O(log(n))
+	
+	
+
+## How to use
+
+Just run the EVAL.m file to compare run time of three methods: 
+	1) Fibo using Recursive method
+	2) Fibo using Dynamic programming
+	3) Fibo using Matrix Exponentiation  (Fastest method)
+	
