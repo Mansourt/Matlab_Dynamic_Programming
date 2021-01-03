@@ -18,9 +18,9 @@ MATLAB Code: Solve Fibonacci Numbers using **Dynamic Programming**, Memoization 
 
 ## How to use
 
-Just run the **EVAL.m** file to compare run-time of three methods:
+Just run the **EVAL.m** file to compare run-time of the following three methods:
 
-	1- Fibo using **Recursive method**
-	2- Fibo using **Dynamic programming**
-	3- Fibo using **Matrix Exponentiation**  (Fastest method)
+	1- Fibo using _Recursive method_
+	2- Fibo using _Dynamic programming_
+	3- Fibo using _Matrix Exponentiation_  (Fastest method)
 	
