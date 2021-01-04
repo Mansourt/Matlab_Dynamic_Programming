@@ -1,4 +1,9 @@
 function F = Fibo2(n)
+%%
+% Author: Mansour Torabi, 
+% Contact: smtoraabi@ymail.com
+
+%%
 % Fibonacci using Dynamic Programming (DP) 
 % DP: recursion + memoziation 
 
