@@ -16,7 +16,7 @@ MATLAB Code: Solve Fibonacci Numbers using **Dynamic Programming**, Memoization 
 	
 	
 
-## How to use
+## Usage
 
 Just run the **EVAL.m** file to compare run-time of the following three methods:
 
