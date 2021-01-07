@@ -1,7 +1,7 @@
 clc, clear
 
 % Define Map (Grid Path)
-Map = zeros(15,10);
+Map = zeros(15, 10);
 Map(3,5) = 1;
 Map(6,7) = 1;
 Map(7,3) = 1;

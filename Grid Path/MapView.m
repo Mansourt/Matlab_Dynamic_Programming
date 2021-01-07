@@ -18,3 +18,5 @@ end
 axis equal;
 axis off;
 
+h = text(-1,-0.1, 'Start Point'); set(h,'fontsize',12,'fontweight','bold');
+h = text(n,m+1, 'End Point'); set(h,'fontsize',12,'fontweight','bold');
