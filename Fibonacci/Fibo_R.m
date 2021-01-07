@@ -1,4 +1,4 @@
-function f = Fibo1(n)
+function f = Fibo_R(n)
 %%
 % Author: Mansour Torabi, 
 % Contact: smtoraabi@ymail.com
@@ -13,5 +13,5 @@ function f = Fibo1(n)
 if n <= 2
     f = 1;
 else
-    f = Fibo1(n-1) + Fibo1(n-2);
+    f = Fibo_R(n-1) + Fibo_R(n-2);
 end

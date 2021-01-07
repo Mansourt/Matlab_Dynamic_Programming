@@ -1,4 +1,4 @@
-function F = Fibo3(n)
+function F = Fibo_M(n)
 %%
 % Author: Mansour Torabi, 
 % Contact: smtoraabi@ymail.com

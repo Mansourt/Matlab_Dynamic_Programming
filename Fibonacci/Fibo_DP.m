@@ -1,4 +1,4 @@
-function F = Fibo2(n)
+function F = Fibo_DP(n)
 %%
 % Author: Mansour Torabi, 
 % Contact: smtoraabi@ymail.com
@@ -10,22 +10,19 @@ function F = Fibo2(n)
 % Time Complexity   : O(n)
 % Space             : O(n)
 
-Memo = [];
-MemoIdx = [];
+Memo = zeros(1,n)*nan;
+
 F = Fibonacci(n);
 
     function f = Fibonacci(n)
-        if any(n == MemoIdx)
+        if ~isnan(Memo(n))
             f = Memo(n); return;
         end
         if n <= 2
-            f = 1;
-            Memo(n) = f;
-            MemoIdx = [MemoIdx, n];
+            f = 1; Memo(n) = f; 
         else
             f = Fibonacci(n-1) + Fibonacci(n-2);
-            Memo(n) = f;
-            MemoIdx = [MemoIdx, n];
+            Memo(n) = f; 
         end
     end
 end
