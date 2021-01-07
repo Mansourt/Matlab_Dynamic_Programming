@@ -1,8 +1,8 @@
 # Matlab Dynamic Programming 
 
 Dynamic Programming has been demostrated by two examples:
-	1. Fibonacci squence
-	2. Find number of path in the Grid Map with obstacles
+1. Fibonacci squence
+2. Find number of path in the Grid Map with obstacles
 
 ## Example 1: Fibonacci squence
 
@@ -12,6 +12,7 @@ Just run the **Fibonacci/EVAL_fibo.m** file to compare run-time of the following
 2. Fibo using ___Dynamic programming___
 3. Fibo using ___Matrix Exponentiation___  (Fastest method)
 
+### MATLAB function
 1. **Fibonacci/Fibo_R.m: Fibonacci with Recursive approach:**
     * Time Complexity:    O(2^n)
     * Space Complexity:   O(2^n)
@@ -52,7 +53,6 @@ toc;
 tic;
 N2 = GridPath_DP(Map, 1,1)
 toc;
-
 ```
 
 Grid map is as follows:
