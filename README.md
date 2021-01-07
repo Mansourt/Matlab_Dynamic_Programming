@@ -5,7 +5,7 @@ MATLAB Code: Solve Fibonacci Numbers using **Dynamic Programming**, Memoization 
 
 1. **Fibo1.m: Fibonacci with Recursive approach:**
     * Time Complexity:    O(2^n)
-    * Space Complexity:   O(n)
+    * Space Complexity:   O(2^n)
 	
 2. **Fibo2.m: Fibonacci with Dynamic programming (Memoization):**
     * Time Complexity:     O(n)
