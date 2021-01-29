@@ -3,7 +3,7 @@
 # Matlab Dynamic Programming 
 
 Dynamic Programming has been demostrated by two examples:
-1. Fibonacci squence
+1. Fibonacci sequence
 2. Find number of path in the Grid Map with obstacles
 
 ## Example 1: Fibonacci squence
